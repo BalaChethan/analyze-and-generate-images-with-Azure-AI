@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiKey = '1d7aafb22d7b42fa90a8fdf661f5f9a4';
-const endpoint = 'https://web-app.cognitiveservices.azure.com/';
+const endpoint = 'https://westus2.web-app.cognitiveservices.azure.com/';
 
 async function analyzeImage(imageUrl) {
   const headers = {
