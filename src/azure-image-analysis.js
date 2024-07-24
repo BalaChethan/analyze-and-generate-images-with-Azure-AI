@@ -8,7 +8,6 @@ async function analyzeImage(imageUrl) {
     'Ocp-Apim-Subscription-Key': apiKey,
     'Content-Type': 'application/json',
   };
-
   const params = {
     'visualFeatures': 'Categories,Tags,Description,Faces,Objects',
     'details': 'Celebrities,Landmarks',
